@@ -58,16 +58,52 @@ Create a file named `db.json` in your project directory with the following conte
 ```json
 {
   "posts": [
-    { "id": "1", "title": "a title", "views": 100 },
-    { "id": "2", "title": "another title", "views": 200 }
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    }
   ],
   "comments": [
-    { "id": "1", "text": "a comment about post 1", "postId": "1" },
-    { "id": "2", "text": "another comment about post 1", "postId": "1" }
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
   ],
   "profile": {
     "name": "typicode"
-  }
+  },
+  "student": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "age": 20,
+      "gender": "Male",
+      "hobby": "Photography",
+      "city": "Jakarta",
+      "dream": "To become a professional photographer"
+    }
+  ],
+  "books": [
+    {
+      "id": "1",
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "genre": "Fiction",
+      "publishedYear": 1925
+    }
+  ]
 }
 ```
 
